@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+a {
+  @apply text-blue-500 hover:text-blue-700;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.hero {
+  @apply flex items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-indigo-600 text-white;
+}
+
+.dashboard {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg overflow-hidden;
+}
+
+.card-header {
+  @apply bg-gray-200 p-4 font-bold text-lg;
+}
+
+.card-body {
+  @apply p-4;
+}
+
+.button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600;
+}
+
+.icon {
+  @apply inline-block align-middle;
+}
